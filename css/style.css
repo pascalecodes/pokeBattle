@@ -1,0 +1,56 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+html{
+  background-image: url('/Users/pdelaunalab/Desktop/gitrepo/api_miniapps/pokeBattle/img/pokerainbow.jpeg');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+#img{
+  display: block; 
+  margin: 20px auto;
+  height: 300px;
+  width: 220px;
+  background-image: url('/Users/pdelaunalab/Desktop/gitrepo/api_miniapps/pokeBattle/img/background.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  
+}
+#pokeImg1, #pokeImg2{
+  height: 140px;
+  width: 180px;
+  margin-top: 40px;
+  margin-left: 20px;
+  
+}
+h1,h2,p,span{
+  display: flex;
+  justify-content:center;
+  font-size: 1.5rem;
+  text-align: center;
+}
+input, button{
+  display: block;
+  margin: 5px auto;
+  font-size: 1.5rem;
+}
+
+p{
+  font-size: 1.5rem;
+  margin: 20px 300px;
+  font-weight: bolder;  
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
