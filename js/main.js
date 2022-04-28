@@ -18,18 +18,18 @@ function getFetch(){
       .then(data => {
         console.log(data)
         pokeStore.push(data.types[0].type.name)
-        pokeImg.push(data.sprites.front_shiny)
+        pokeImg.push(data.sprites.other.home.front_shiny)
         console.log(data.types[0].type.name)
-        console.log(data.sprites.front_shiny)
+        console.log(data.sprites.other.home.front_shiny)
         
         fetch(url2)
         .then(res => res.json()) // parse response as JSON
         .then(data => {
 
           pokeStore.push(data.types[0].type.name)
-          pokeImg.push(data.sprites.front_shiny)
+          pokeImg.push(data.sprites.other.home.front_shiny)
           console.log(data.types[0].type.name)
-          console.log(data.sprites.front_shiny)
+          console.log(data.sprites.other.home.front_shiny)
       
           if((pokeStore[0] === 'grass') && ((pokeStore[1] === 'water') || (pokeStore[1] === 'rock') || (pokeStore[1] === 'ground'))){
             document.querySelector('#pokeImg1').src = pokeImg[0]
