@@ -123,3 +123,4 @@ function getFetch(){
 
 //2x effective= Strong Against= SuperEffective
 //default Normal
+//can work on adding different effectivness levels between 2x and normal
