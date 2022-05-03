@@ -13,12 +13,16 @@ function getFetch(){
   let pokeStore = []
   let pokeImg = []
 
+
+
   fetch(url)
       .then(res => res.json()) // parse response as JSON
       .then(data => {
         console.log(data)
         pokeStore.push(data.types[0].type.name)
         pokeImg.push(data.sprites.other.home.front_shiny)
+       
+
         console.log(data.types[0].type.name)
         console.log(data.sprites.other.home.front_shiny)
         
