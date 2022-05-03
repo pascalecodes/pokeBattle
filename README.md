@@ -6,7 +6,7 @@ An app using the pokemonapi.co to see effectiveness of Pokemon based on their ty
 ### Live version at: https://pokebattle-sim.netlify.app/
 
 ### Screenshot
-<img src="pokeBattle.png" width="600" height="400">
+<img src="pokeBattle.png" width="1000" height="600">
 
 ### How It's Made:
 Tech used: HTML, CSS, Javascript
